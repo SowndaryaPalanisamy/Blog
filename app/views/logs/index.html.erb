@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        
+ 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$('#slide').hover(function(){
+     $(this).animate({left:"0px"},500);     
+   },function () {
+       $(this).animate({left: "-150px"},500);     
+});
+});
+</script>
+</head>
+    <body id="page">
+        <ul class="cb-slideshow">
+            <li><span>Image 01</span><div><h3>sozial papier is a blogging website.</h3></div></li>
+            <li><span>Image 02</span><div><h3>Read and share blog posts, work less.</h3></div></li>
+            <li><span>Image 03</span><div><h3>Publish here, share anywhere.</h3></div></li>
+            <li><span>Image 04</span><div><h3>Great content engagement starts here.</h3></div></li>
+            <li><span>Image 05</span><div><h3>Import your existing blog.</h3></div></li>
+            <li><span>Image 06</span><div><h3>Join us soon!</h3></div></li>
+        </ul>
+
+
+        <div class="container">
+            <!-- Codrops top bar -->
+           <!-- <div class="codrops-top">
+                <p> Sign in using 
+		
+                <span class="right">
+                    
+                <a href="#" ><img class=icon src="images/fb.png" alt="facebook"></a>
+		<a href="#" ><img class=icon src="images/twit.png" alt="twitter"></a>
+                </span>
+</p>
+                <div class="clr"></div>
+            </div><!--/ Codrops top bar -->
+            <header>
+		<h1> Sign In </h1>
+                <form method="post" action="#" class="login">
+    <p>
+      <label for="login">Email:</label>
+      <input type="text" name="login" id="login" placeholder="name@example.com">
+    </p>
+
+    <p>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" placeholder="password">
+    </p>
+
+    <p class="login-submit">
+      <button type="submit" class="login-button">Login</button>
+    </p>
+
+    <p class="forgot-password"><a href="index.html">Forgot your password?</a></p>
+    <p class="sign-up"><a href="index.html">Sign up</a></p>
+     <div class="connect">
+                <p> connect with:</p>
+                <p>
+                    <a class="facebook" href=""><%= image_tag("fb.png",width: "30", height: "30", :alt => "facebook")%></a>
+                    <a class="twitter" href=""><%= image_tag("twit.png",width: "30", height: "30", :alt => "twitter")%></a>
+		    <a class="Linkedin" href=""><%= image_tag("link.png",width: "30", height: "30", :alt => "linkedin")%></a>
+		    <a class="GooglePlus" href=""><%= image_tag("gp.png",width: "30", height: "30", :alt => "GooglePlus")%></a>
+             
+		</p>
+            </div>   
+</form>
+         
+            </header>
+        </div>
+<div id="slide" style="left: -150px; top: 0px; width: 160px;">
+    
+<div  class="active" id="menu_about"><a href="#">About us </a></div>
+<div class="" id="menu_contact"><a href="#">Contact </a></div>
+<div class="" id="menu_help"><a href="#">Help </a></div>
+<div class="" id="menu_terms"><a href="#">Terms </a></div>
+<div class="" id="menu_FAQ"><a href="#">FAQ </div>
+<div class="" id="menu_privacy"><a href="#">Privacy</a></div>
+</div>
+
+    </body>
+</html>
