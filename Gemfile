@@ -3,6 +3,13 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
+gem 'omniauth'
+gem 'omniauth-google'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
+gem 'mongoid-paperclip'
+gem 'bson_ext'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

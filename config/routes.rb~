@@ -6,7 +6,7 @@ Blog::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
 get "/auth/:provider/callback" => "logs#create"
-get "/signout" => "logs#destroy", :as => :signout
+get "/signout" => "sessions#destroy", :as => :signout
   # You can have the root of your site routed with "root"
   resources :logs
 
